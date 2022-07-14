@@ -3,7 +3,7 @@ import PricingCard from './PricingCard';
 
 const Pricing = () => {
     return (
-        <div className='pricing'>
+        <div className='pricing' id='premium'>
             <div className='text-center'>
                 <h2 className='fw-bold'>Pricing Package Choose Your Plan</h2>
                 <p className='banner-text my-5'>We believe that great design should not be out of reach, so our services <br /> are less than half the price of a full-time designer.</p>

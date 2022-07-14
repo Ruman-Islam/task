@@ -3,7 +3,7 @@ import img from '../assets/images/b1efad66831ef7e238f9979dd66af8a4.png';
 
 const OurProduct = () => {
     return (
-        <div><br /><br /><br /><br /><br />
+        <div id='work'><br /><br /><br /><br /><br />
             <h2 className='fw-bold'>Our Products</h2>
             <div className='d-flex justify-content-between align-items-center'>
                 <p className='banner-text'>We believe that great design should not be out of reach, so our services <br /> are less than half the price of a full-time designer.</p>

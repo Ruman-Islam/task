@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div className='hero' id='hero'>
             <div className='banner'>
                 <div className='banner-left'>
                     <h2 className='banner-title'>Software services for startups without limits..</h2>

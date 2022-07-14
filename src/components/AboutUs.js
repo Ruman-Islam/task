@@ -5,7 +5,7 @@ import img from '../assets/images/a48fec6b832f1aed_org.jpg'
 
 const AboutUs = () => {
     return (
-        <div className='hero'>
+        <div className='hero' id='about'>
             <h2 className='text-center mb-5 fw-bold'>Talk About Us!</h2>
             <div className='banner'>
                 <div className='banner-left'>

@@ -6,7 +6,7 @@ import img from '../assets/images/b1efad66831ef7e238f9979dd66af8a4.png';
 
 const OurPortfolio = () => {
     return (
-        <div className='my-5 bg-white our-portfolio-container'>
+        <div className='my-5 bg-white our-portfolio-container' id='blog'>
             <div className='our-portfolio'>
                 <h2 className='fw-bold'>Our Portfolio</h2>
                 <div>
