@@ -2,14 +2,17 @@ import React from 'react';
 import AboutUs from '../components/AboutUs';
 import Hero from '../components/Hero';
 import OurCustomer from '../components/OurCustomer';
+import OurDesignTech from '../components/OurDesignTech';
+import OurDevTech from '../components/OurDevTech';
 import OurPortfolio from '../components/OurPortfolio';
 import OurProduct from '../components/OurProduct';
 import Pricing from '../components/Pricing';
 import WhatWeDo from '../components/WhatWeDo';
+import WorkFlow from '../components/WorkFlow';
 
 const Home = () => {
     return (
-        <div className='bg-light px-4'>
+        <div className='px-4'>
             <Hero />
             <OurCustomer />
             <WhatWeDo />
@@ -17,14 +20,9 @@ const Home = () => {
             <Pricing />
             <AboutUs />
             <OurPortfolio />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <OurDevTech />
+            <OurDesignTech />
+            <WorkFlow />
             <br />
             <br />
         </div>

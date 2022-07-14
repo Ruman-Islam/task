@@ -3,7 +3,7 @@ import img from '../assets/images/computer-logos-8-2.png';
 
 const WhatWeDo = () => {
     return (
-        <div>
+        <div className='what-we-do'>
             <h2 className='fw-bold'>What We Do</h2>
             <div className='row my-5'>
                 <div className='col-md-4 service-card'>

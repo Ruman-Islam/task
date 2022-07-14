@@ -55,6 +55,10 @@ nav img {
     width: 100%;
     height: 450px;
 }
+.what-we-do {
+    background-color: #F5F5F5;
+    padding: 20px;
+}
 
 /* Our customer */
 .our-customer {
@@ -87,7 +91,7 @@ nav img {
     margin-left: 10px;
 }
 .service-card li{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 5px 0;
     margin-left: -25px;
 }
@@ -145,8 +149,13 @@ nav img {
    border-radius: 50%;
    object-fit: cover;
 }
+.our-portfolio-container {
+    padding: 100px 50px;
+    background-color: #F5F5F5;
+}
 .our-portfolio {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -154,6 +163,30 @@ nav img {
    padding: 10px;
    border-radius: 50%;
    margin: 0 5px;
+}
+.language-text {
+    border-bottom: 5px solid rgba(45, 91, 255, 0.1);
+    padding: 15px;
+}
+.language-logo-wrapper {
+    width: 100px;
+    height: 100px;
+}
+.design-technology {
+    margin-top: 150px;
+}
+.workflow {
+    margin: 150px 0;
+}
+.defining-goal-span {
+    background-color: white;
+    padding: 20px;
+    border-left: #2D5BFF 4px solid;
+    margin-bottom: 20px;
+}
+.workflow .workflow-text {
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -184,4 +217,7 @@ nav img {
         width: 200px;
         height: 200px;
      }
+     .our-portfolio {
+        justify-content: center;
+    }
 }
