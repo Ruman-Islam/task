@@ -31,6 +31,7 @@ nav img {
 /* Hero */
 .banner {
     display: flex;
+    flex-wrap: wrap;
 }
 .banner-left{
     flex: 1;
@@ -98,11 +99,15 @@ nav img {
 .pricing {
     margin: 150px 0;
     background-color: #fff;
-    padding: 50px 0;
+    padding: 50px ;
 }
 .pricing-card {
     border-radius: 5px;
     padding: 10px;
+    width: 350px;
+}
+.pricing-card h2, span {
+    font-weight: 700;
 }
 .pricing-container li {
     font-size: 1.1rem;
@@ -113,6 +118,42 @@ nav img {
 }
 .pricing-bg-blue {
     background-color: #2D5BFF;
+}
+.blockquote  {
+    position: relative;
+    padding: 50px;
+}
+.blockquote span {
+    position: absolute;
+}
+.blockquote .blockquote-left {
+    top: 50px;
+    left: 25px;
+}
+.blockquote .blockquote-right {
+    bottom: 60px;
+    right: 60px;
+}
+.about-us-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-img-wrapper img {
+   width: 400px;
+   height: 400px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.our-portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-portfolio span{
+   padding: 10px;
+   border-radius: 50%;
+   margin: 0 5px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -133,4 +174,14 @@ nav img {
     .see-more-btn {
         margin-right: 0;
     }
+    .pricing {
+        padding: 30px ;
+    }
+    .pricing-card {
+        margin-bottom: 1.4rem;
+    }
+    .about-us-img-wrapper img {
+        width: 200px;
+        height: 200px;
+     }
 }

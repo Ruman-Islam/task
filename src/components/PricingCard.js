@@ -4,7 +4,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 const PricingCard = ({ bgColor }) => {
     return (
-        <div className={`col-md-3 mx-auto pricing-card ${bgColor}`}>
+        <div className={`col-md-3 mx-auto pricing-card ${bgColor} border`}>
             <div className='d-flex align-items-center justify-content-between px-4 py-4'>
                 <h2>Marketing</h2>
                 <span>$899/ mo</span>
